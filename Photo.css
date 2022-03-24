@@ -1,0 +1,128 @@
+
+/*common starts*/
+body {
+
+   margin: 0;
+   padding:0;
+   font-family: 'playfair', 'Times New Roman', Times, serif;
+   font-size: 16px;
+   font-weight: 400;
+   color:hsl(240, 14%, 4%);
+    
+}
+/*common ends*/
+/*header starts*/
+
+header {
+    padding: 20px 0;
+   /* border: 1px solid;*/
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid red;*/
+    overflow: hidden;
+}
+
+.logo{
+    width: 12%;
+    /*border: 1px solid blue;*/
+    float: left;
+    margin-top: 18px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu {
+    width: 65%;
+    /*border: 1px solid black;*/
+    float: right;
+}
+
+.menu ul {
+    
+    float: right;
+    
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    
+}
+
+.menu ul li a {
+    margin: 0 60px;
+    padding:4px 3px 3px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase ;
+   /* border-bottom: 1ps solid transparent;*/
+    transition: .3s;
+}
+
+
+.menu ul li:last-child a {
+    margin-right: 0;
+
+}
+.menu ul li a:hover {
+
+    border-bottom: 1px solid #811111;
+
+}
+/*header ends*/
+/*banner starts*/
+
+.banner {
+
+}
+.container {
+ 
+}
+.b_img {
+    width: 100%;
+
+
+}
+/*perfect starts*/
+.perfect {
+
+}
+.container2 {
+    margin: 0 auto;
+    width: 80%;
+    /*border-color: 1px solid yellow;*/
+
+}
+.p_content {}
+.c_light {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
+
+}
+.c_tittle {
+
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text {
+    line-height: 25px;
+
+}
+.
+
+/*perfect ends*/
+
+
+
+/*banner ends*/
+
+/*footer starts*/
